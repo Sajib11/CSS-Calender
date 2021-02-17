@@ -4,28 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sajib11</title>
-    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+<style>
+    .calender ul {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 1em;
+        background-color:rgb(205, 143, 50);
+
+    }
+    .calender li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 3em;
+        height: 60px;
+        background-color: rgb(234, 246, 247);}
+
+    .calender li:hover
+    {
+        background-color: lightpink;
+    }
+
+        .h1s {
+             background-color: lightgreen;
+             border: yellow;
+             height: 100px;
+             padding-top: 50px;
+             font-weight: 200;
+             font-size: 3em;
+
+        }
+
+        .weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 1em;
+        background-color: bisque;
+}
+
+.weekdays li {
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+}     
+ .other{
+    background-color: rgb(247, 247, 243) !important;
+    }
+
+
+</style>
 <body>
-    <form action="">
-        <h1 title ="Read this"> Subject</h1>
-        <!-- <label>CSE <input type="radio"/> </label> -->
-        <br/>
-        <fieldset>
-        <legend> Your Detail </legend>
-        <input type="radio"/> EEE <br/>
-        <input type="text" value="enter your user name"/>
-        <input type="file" value="choose your picture"/>
-        <input type="password" value="Type your pass"/>
-        <input type="date"/>
-        </fieldset>
-    
+    <h1 class="h1s" style="text-align: center"> Calender by Sajib </h1>
+    <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+      </ul>
 
 
 
+    <div class="calender">
 
-    </form>
+    <ul>
+        <li class="other">31</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li class="other">1</li>
+        <li class="other">2</li>
+        <li class="other">3</li>
+        <li class="other">4</li>
+        
+    </ul>
+    </div>
 </body>
 </html>
